@@ -1,4 +1,15 @@
 # Role Responsibilities
+> [!Important]
+> Not all resonsibilities listed below are soley that of the role listed. At times some members will need take on other roles' responsibilities. If your workload is knoticabley less than that of another member's workload, reach out to help distribute the work.
+>
+> Example of a responsibiliy only one role states, but every member should try to fullfil:
+> - Keeping meetings on track 
+>
+> Example of a responsibiliy soley that of the role's holder(s): _(assuming the role holder(s) were not informed)_
+> - Submitting project files for grading
+>
+> In general, if fulfilling another roles' reaponibiley does not confuse or hinder the role holder's ability to work. Then it is safe to fulfill without asking.
+
 > [!NOTE]
 > The resonsibilities listed below each role may not be comprehensive. View the examples as a way to understand the role.
 
@@ -67,25 +78,66 @@
   <!-- - [TODO] Indicate where the minutes have been updated, and inform any members to whom this information my be pertinent -->
 
 ## Concept Lead
+> [!NOTE]
+> Should "UI Designer" responsibilities be incorporated here instead? Both roles share similar responsibilities - in a small group
+
+Time Requirement: 
+- _(within reason)_ Main decider for the product's,
+  - Look
+  - Feel
+  - Fuctionality
+  - Purpose
+- Provides information on the shareholders to group questions
+  - products purpose
+  - what type of person uses the app
+
 
 ## UI Designer
+> [!NOTE]
+> Should "UI Designer" responsibilities be incorporated into Concept Lead instead? Both roles share similar responsibilities - in a small group
+- _(within reason)_ Main decider for the product's UI
 
 ## GitHub Coordinator
+- Configures GitHub enviroment
+  - Policies
+  - Repo creation
+- Confirms any changes to GitHub enviroment prior to implimantation
+- Monitor & Handle Git convention issues,
+  - Branch Naming
+  - Branch Use
+  - Commits
+  - etc
 
 ## Frontend Coordinators
+- Cordinate parity to features - accross all frontends
+- 
 
 ## Technical Writer?
+- Proof read documentation & presention text - prior to submission
 
 ## Application Tester
+- Confirm programs features work as expected accross all frontends - in real world senario.
 
 ## REACT Lead
+- _(Includes the responsibilities of Frontend Coordinators)_
+- Create & manage frontend REACT enviroment for feature implementation
+- Main source of REACT information
 
 ## Flutter Lead
+- _(Includes the responsibilities of Frontend Coordinators)_
+- Create & manage frontend Flutter enviroment for feature implementation
+- Main source of Flutter information
 
 ## Docker Coordinator
+- Create & manage Docker enviroment for feature implementation
+- Main source of Docker information
 
-## GitHub Actions
+~~## GitHub Actions~~
+
 
 ## Database
+- Create & manage Docker enviroment to fulfill project
+
 
 ## Server Coordinator
+- Create & manage Server enviroment for project
