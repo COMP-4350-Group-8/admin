@@ -27,9 +27,27 @@
 ## Sprints
 
 
-## Member Responsibilities
+## (Unique) Member Responsibilities
 ### Owen
+- Presenter
+- Concept Lead
+- Database Coordinator [*](## "Role has 2 holders")
+- Server Coordinator [*](## "Role has 2 holders")
+- Minute Taker [*](## "Minute Taker holder is on a weekly rotation")
 ### Robert
+- GitHub Coordinator
+- Flutter Lead
+- Frontend Coordinator [*](## "Role has 2 holders")
+- Minute Taker [*](## "Minute Taker holder is on a weekly rotation")
 ### Brett
+- Docker Coordinator
 ### Azat
+- Application Tester
+- Database Coordinator [*](## "Role has 2 holders")
+- Server Coordinator [*](## "Role has 2 holders")
+- Minute Taker [*](## "Minute Taker holder is on a weekly rotation")
 ### Shaun
+- Presentor Assistant
+- REACT Lead
+- Frontend Coordinator [*](## "Role has 2 holders")
+- Minute Taker [*](## "Minute Taker holder is on a weekly rotation")
