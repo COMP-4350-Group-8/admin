@@ -2,11 +2,13 @@
 
 ## Meetings
 ### Weekly Meetings
-- Time: Monday's from 13:30 to 14:30
+- Time: Mondays from 13:30 to 14:30
 - Location: Engineering Room 362D
+  - exceptions:
+    - 2024-09-30 [Week 5]: Holiday Room booking closed
 - Minute Taker: _[on weekly rotation]_
 ### Weekly Minute Taker Rotation
-- ~~2024-09-04 [Week 1]: Owen~~
+- ~~2024-09-04 [Week 1]: Owen~~ (group not formed yet)
 - 2024-09-09 [Week 2]: Robert
 - 2024-09-16 [Week 3]: Brett
 - 2024-09-23 [Week 4]: Azat
