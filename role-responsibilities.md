@@ -13,29 +13,15 @@
 > [!NOTE]
 > The responsibilities listed below each role may not be comprehensive. View the examples as a way to understand the role.
 
-> [!WARNING]
-> Not all roles are going to be filled. Roles are still being determined as of 2024-09-15
-
-## Scrum Master
-- Keeps meetings on track
-- Makes sure key meeting items are covered first 
-
-## Scrum Support
-- Step in if the Scrum Master is unable to fulfil responsibilities
-  - _(Scrum Master is taking minutes, absent, etc.)_  
-- Keeps Scrum Master on track
-  - _(Everyone gets sidetracked)_
-- Supports Scrum Master
-
-## Presenter
+## Presenter <sub>$\color{Cyan}{[Owen]}$<sub/>
 - Leads any presentation like event
 - Rehers presentation prior to presentation 
 
-## Presentor Assistant(s)?
+## Presentor Assistant <sub>$\color{Cyan}{[Shaun]}$<sub/>
 - Steps in if the Presentor is unable to fulfil responsibilities 
 - Supports the Presenter
 
-## Minutes Taker
+## Minutes Taker <sub>$\color{Cyan}{[Owen][Robert][Brett][Azat][Shaun]}$<sub/>
 - Reads agenda items prior to meeting
 - Take minutes during the meeting:
   - group decisions
@@ -77,27 +63,18 @@
 - Update your posted minutes file as you become aware of, Incomplete, Missing, or Wrong information $\color{Apricot}{[dueASAP]}$
   <!-- - [TODO] Indicate where the minutes have been updated, and inform any members to whom this information may be pertinent -->
 
-## Concept Lead
-> [!NOTE]
-> Should "UI Designer" responsibilities be incorporated here instead? Both roles share similar responsibilities - in a small group
-
-Time Requirement: 
+## Concept Lead <sub>$\color{Cyan}{[Owen]}$<sub/>
 - _(within reason)_ Main decider for the product's,
   - Look
   - Feel
   - Functionality
   - Purpose
+  - UI
 - Provides information on the shareholders to group questions
   - products purpose
   - what type of person uses the app
 
-
-## UI Designer
-> [!NOTE]
-> Should "UI Designer" responsibilities be incorporated into Concept Lead instead? Both roles share similar responsibilities - in a small group
-- _(within reason)_ Main decider for the product's UI
-
-## GitHub Coordinator
+## GitHub Coordinator <sub>$\color{Cyan}{[Robert]}$<sub/>
 - Configures GitHub environment
   - Policies
   - Repo creation
@@ -108,35 +85,48 @@ Time Requirement:
   - Commits
   - etc
 
-## Frontend Coordinators
+## Frontend Coordinators <sub>$\color{Cyan}{[Robert][Shaun]}$<sub/>
 - Coordinate feature parity across all frontends
 
-## Technical Writer?
-- Proofread documentation & presentation text - prior to submission
-
-## Application Tester
+## [under-review] Application Tester $\color{Cyan}{<sub>[Azat]}$<sub/>
 - Confirm program features work as expected across all frontends - in real-world scenario.
 
-## REACT Lead
+## REACT Lead <sub>$\color{Cyan}{[Shaun]}$<sub/>
 - _(Includes the responsibilities of Frontend Coordinators)_
 - Create & manage frontend REACT environment for feature implementation
 - Main source of REACT information
 
-## Flutter Lead
+## Flutter Lead <sub>$\color{Cyan}{[Robert]}$<sub/>
 - _(Includes the responsibilities of Frontend Coordinators)_
 - Create & manage frontend Flutter environment for feature implementation
 - Main source of Flutter information
 
-## Docker Coordinator
+## Docker Coordinator <sub>$\color{Cyan}{[Brett]}$<sub/>
 - Create & manage Docker environment for feature implementation
 - Main source of Docker information
 
 ~~## GitHub Actions~~
 
-
-## Database
+## Database <sub>$\color{Cyan}{[Owen][Azat]}$<sub/>
 - Create & manage Database environment to fulfill project
 
-
-## Server Coordinator
+## Server Coordinator <sub>$\color{Cyan}{[Owen][Azat]}$<sub/>
 - Create & manage Server environment for project
+
+
+# Removed/Rejected Roles
+## [unnecessary] Scrum Master
+- Keeps meetings on track
+- Makes sure key meeting items are covered first 
+## [unnecessary] Scrum Support
+- Step in if the Scrum Master is unable to fulfil responsibilities
+  - _(Scrum Master is taking minutes, absent, etc.)_  
+- Keeps Scrum Master on track
+  - _(Everyone gets sidetracked)_
+- Supports Scrum Master
+## [unnecessary] Technical Writer
+- Proofread documentation & presentation text - prior to submission
+
+<!-- merged with role Concept Lead -->
+## [merged-role] UI Designer
+- _(within reason)_ Main decider for the product's UI
