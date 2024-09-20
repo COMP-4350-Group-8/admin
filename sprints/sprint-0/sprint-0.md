@@ -5,8 +5,8 @@
 - Product Repo: [comp4350-project](https://github.com/COMP-4350-Group-8/comp4350-project)
 
 ## Presentation Proposal
-- [Slides](%5B2024-09-20%5DPresentationPitch.pdf)
-- [Slide Notes](%5B2024-09-20%5DPresentationPitchNotes.md)
+- [Slides]([2024-09-20]PesentationPitch.pdf)
+- [Slide Notes]([2024-09-20]PresentationPitchNotes.md)
 
 ## Summary & Vision
 The ___Sail Mapper App___ will provide tracking and results for sailboats during races.
