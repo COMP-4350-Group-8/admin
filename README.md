@@ -1,4 +1,5 @@
 # Administrative Work Repo
+See the [Wiki](https://github.com/COMP-4350-Group-8/admin/wiki) for more information 
 
 ## Meetings
 ### Weekly Meetings
@@ -41,6 +42,7 @@
 - Minute Taker [*](## "Minute Taker holder is on a weekly rotation")
 ### Brett
 - Docker Coordinator
+- Minute Taker [*](## "Minute Taker holder is on a weekly rotation")
 ### Azat
 - Application Tester
 - Database Coordinator [*](## "Role has 2 holders")
