@@ -33,6 +33,7 @@ No tests, so no coverage to report.
 
 #### Backend - ASP.NET
 See [Backend Coverage](https://htmlpreview.github.io/?https://github.com/COMP-4350-Group-8/admin/blob/main/sprints/sprint-1/coverage-report/index.html)
+Note: We only covered Race class and its Controller and Service classes
 
 ## Testing importance
 
