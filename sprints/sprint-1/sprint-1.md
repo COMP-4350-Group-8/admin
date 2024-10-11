@@ -31,6 +31,9 @@ No tests, so no coverage to report.
 | CreateRace.jsx | 100     | 100      | 100     | 100     |
 | Home.jsx       | 100     | 100      | 100     | 100     |
 
+#### Backend - ASP.NET
+See [Backend Coverage](https://htmlpreview.github.io/?https://github.com/COMP-4350-Group-8/admin/blob/main/sprints/sprint-1/coverage-report/index.html)
+
 ## Testing importance
 
 ### Unit Tests
