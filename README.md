@@ -4,7 +4,7 @@ See the [Wiki](https://github.com/COMP-4350-Group-8/admin/wiki) for more informa
 ## Meetings
 ### Weekly Meetings
 - Time: Mondays from 13:30 to 14:30
-- Location: Engineering Room 362D
+- Location: Engineering Room 362B
   - exceptions:
     - 2024-09-30 [Week 5]: Holiday Room booking closed
 - Minute Taker: _[on weekly rotation]_
@@ -14,8 +14,8 @@ See the [Wiki](https://github.com/COMP-4350-Group-8/admin/wiki) for more informa
 - [x] 2024-09-16 [Week 3]: Brett
 - [x] 2024-09-23 [Week 4]: Azat
 - [x] 2024-09-30 [Week 5]: Shaun
-- [ ] 2024-10-07 [Week 6]: Owen
-- [ ] 2024-10-14 [Week 7]: Robert
+- [x] 2024-10-07 [Week 6]: Owen
+- [x] 2024-10-14 [Week 7]: Robert
 - [ ] 2024-10-21 [Week 8]: Brett
 - [ ] 2024-10-28 [Week 9]: Azat
 - [ ] 2024-11-04 [Week 10]: Shaun
