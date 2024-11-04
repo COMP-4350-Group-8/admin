@@ -16,9 +16,9 @@ See the [Wiki](https://github.com/COMP-4350-Group-8/admin/wiki) for more informa
 - [x] 2024-09-30 [Week 5]: Shaun
 - [x] 2024-10-07 [Week 6]: Owen
 - [x] 2024-10-14 [Week 7]: Robert
-- [ ] 2024-10-21 [Week 8]: Brett
-- [ ] 2024-10-28 [Week 9]: Azat
-- [ ] 2024-11-04 [Week 10]: Shaun
+- [x] 2024-10-21 [Week 8]: Brett
+- [x] 2024-10-28 [Week 9]: Azat
+- [x] 2024-11-04 [Week 10]: Shaun
 - [ ] 2024-11-11 [Week Br]: Owen
 - [ ] 2024-11-18 [Week 11]: Robert
 - [ ] 2024-11-25 [Week 12]: Brett
