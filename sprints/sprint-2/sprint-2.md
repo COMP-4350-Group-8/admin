@@ -4,100 +4,147 @@
 
 - This document, or in our wiki
 
-## Worksheet Scratch QnAs
+## Worksheet 2 Draft
 
 ### Regression testing
 
-1. Describe how do we run regression testing
-    1. which tests are executed?
-        - $\color{Apricot}{[Answer:]}$
-    2. which tool is used?
-        - $\color{Apricot}{[Answer:]}$
-2. Link to regression testing script
-    - $\color{Apricot}{[Answer:]}$
-3. Snapshot of regression testing script execution
-    - $\color{Apricot}{[Answer:]}$
-4. Results of regression testing.
-    - $\color{Apricot}{[Answer:]}$
+> [!NOTE]
+> 
+> Describe how do we run regression testing
+> 
+> - Which Tool is used
+> - Link to regression testing script
+> - Which tests are executed?
+> - Results of regression testing
+> - Snapshot of regression testing script execution
 
-#### Testing slowdown
+#### Flutter:
 
-1. Have you been able to keep all unit tests & integration tests in your test plan?
-    - $\color{Apricot}{[Answer:]}$ No, we have not been able to.
-2. Have you created more than one test plan depending on type of release?
-    - $\color{Apricot}{[Answer:]}$
+- Tool: n/a
+- Testing Script Link: n/a
+- Texts Executed: n/a
+- Testing Results: n/a
+
+#### REACT:
+
+- Tool: Vitest
+- Testing Script Link: $\color{Apricot}{[TODO]}$
+- Texts Executed:
+	- $\color{Apricot}{[TODO]}$
+	- $\color{Apricot}{[TODO]}$
+	- $\color{Apricot}{[TODO]}$ etc.
+- Testing Results: $\color{Apricot}{[TODO]}$
+
+$\color{Apricot}{[TODO]}$ (Snapshot of regression testing script execution)
+
+#### Backend:
+
+- Tool: xUnit.net
+- Testing Script Link: $\color{Apricot}{[TODO]}$
+- Texts Executed:
+	- $\color{Apricot}{[TODO]}$
+	- $\color{Apricot}{[TODO]}$
+	- $\color{Apricot}{[TODO]}$ etc.
+- Testing Results: $\color{Apricot}{[TODO]}$
+
+$\color{Apricot}{[TODO]}$ (Snapshot of regression testing script execution)
+
+### Testing slowdown
+
+#### Have you been able to keep all unit tests & integration tests in your test plan?
+
+Yes*
+#### Have you created more than one test plan depending on type of release?
+
+"No". The closest we have to more than one test plan is how our GitHub workflow works. In our workflow you are able to specify which tests to run, and in what environment. Some of these features may not be in proper state.
 
 ### Not testing
 
-1. What have you not tested? 
-    - $\color{Apricot}{[Answer:]}$
-2. Provide (updated) system diagram.
-    - $\color{Apricot}{[Answer:]}$
-3. For each tier of your system, which layers of that tier are:
-    - fully tested (80%+)
-    - mostly tested (20-80%)
-    - somewhat tested (0-20)
-    - not tested
+#### What have you not tested? 
 
-Tier 1:
+- Flutter (Client)
+- Automated Tests from frontend to backend
+- $\color{Apricot}{[TODO]}$
 
-    Layer x:
+#### Current System Diagram.
 
-        - $\color{Apricot}{[Answer:]}$
+$\color{Apricot}{[TODO]}$
 
-Tier 2:
+#### Testing Coverage
 
-    Layer x:
-    
-        - $\color{Apricot}{[Answer:]}$
+> [!NOTE]
+> 
+> For each tier of your system, which layers of that tier are:
+> 
+> - Fully tested (80%+)
+> - Mostly tested (20-80%)
+> - Somewhat tested (0-20)
+> - Not tested
+>
+> Coverage reports for tested tiers
 
-Tier 3:
+##### Flutter
 
-    Layer x:
-    
-        - $\color{Apricot}{[Answer:]}$
+n/a
 
+###### Coverage Reports
 
-Tier i:
+- n/a
 
-    Layer x:
-    
-        - $\color{Apricot}{[Answer:]}$
+##### REACT
 
+- $\color{Apricot}{[TODO]}$
 
-4. Provide coverage reports for your tested tiers.
+###### Coverage Reports
 
-$\color{Apricot}{[Answer:]}$
+- $\color{Apricot}{[TODO]}$
+
+##### Backend
+
+- $\color{Apricot}{[TODO]}$
+
+###### Coverage Reports
+
+- $\color{Apricot}{[TODO]}$
 
 ### Profiler
 
-Run a profiler on your API while using it.
+> [!NOTE]
+> 
+> Run a profiler on your API while using it,
+> - Attempt to visit every endpoint,
+> - Which endpoint is the slowest?
+> - Is that fixable? Why or why not?
 
-1. Attempt to visit every endpoint
-    1. which endpoint is the slowest?
-    2. Is that fixable? Why or why not?
+#### Endpoints:
 
-Endpoints:
+- $\color{Apricot}{[TODO]}$
 
-$\color{Apricot}{[Answer:]}$
+#### Profiler Output
 
-2. Include your profiler’s output (link, image, text, etc.)
-    - $\color{Apricot}{[Answer:]}$
+$\color{Apricot}{[TODO:]}$ (link, image, text, etc.)
 
 ### Last dash
 
-1. What issues do you foresee in the next (and final) sprint?
+#### What issues do you foresee in the next (and final) sprint?
 
-$\color{Apricot}{[Answer:]}$
+- Flutter implementation
+	- Android APK creation - ToS Hurdles
+- Security hardening
+- Completing rest of features (most)
+- Documentation
+- Frontend
+	- Map rendering
 
 ### Show off
 
-(For each group member)
-
-Show off your best work (code, UI, design, connections, nice mocks).
-- Remember da Vinci said, “Simplicity is the ultimate sophistication”.
-- Well refactored code shouldn’t be complicated!
-- Each member should commit their own update (we’ll check the logs!)
+> [!NOTE]
+> 
+> Show off your best work (code, UI, design, connections, nice mocks)
+> 
+> - Remember da Vinci said, “Simplicity is the ultimate sophistication”.
+> - Well refactored code shouldn’t be complicated!
+> - Each member should commit their own update (we’ll check the logs!)
 
 #### Owen
 
