@@ -93,11 +93,33 @@ n/a
 
 ##### REACT
 
-- $\color{Apricot}{[TODO]}$
+The only parts of our React frontend that are not tested are:
+
+-   `main.jsx` because it has no functionality to test
+-   `AddCourse.jsx` because it has only one function which talks to the backend and this function is mocked during testing
+-   The link between the frontend and the backend is not covered by automated testing
+
+Everything else in the React frontend is fully tested.
 
 ###### Coverage Reports
 
-- $\color{Apricot}{[TODO]}$
+| File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s |
+| -------------------- | ------- | -------- | ------- | ------- | ----------------- |
+| All files            | 86.11   | 92.3     | 88.23   | 86.11   |
+| src                  | 38.46   | 50       | 50      | 38.46   |
+| App.jsx              | 100     | 100      | 100     | 100     |
+| main.jsx             | 0       | 0        | 0       | 0       | 1-16              |
+| src/components/forms | 100     | 100      | 100     | 100     |
+| MarkerForm.jsx       | 100     | 100      | 100     | 100     |
+| RaceForm.jsx         | 100     | 100      | 100     | 100     |
+| src/components/map   | 100     | 100      | 100     | 100     |
+| Gmap.jsx             | 100     | 100      | 100     | 100     |
+| src/components/ui    | 100     | 100      | 100     | 100     |
+| Card.jsx             | 100     | 100      | 100     | 100     |
+| src/pages            | 50      | 75       | 75      | 50      |
+| AddCourse.jsx        | 0       | 0        | 0       | 0       | 1-19              |
+| CreateRace.jsx       | 100     | 100      | 100     | 100     |
+| Home.jsx             | 100     | 100      | 100     | 100     |
 
 ##### Backend
 
@@ -156,7 +178,7 @@ $\color{Apricot}{[Answer:]}$
 
 #### Brett
 
-$\color{Apricot}{[Answer:]}$
+My best work is the tests for the React frontend. I had worked with React in the past but hadn't written tests for a React app before, so it was cool to learn what those tests can look like. I'm particularly happy about the mocks that some tests required, like the mocks for testing form submission [here](https://github.com/COMP-4350-Group-8/comp4350-project/blob/15ae35b0140ec5c58ecc2efa40893376c5c6c674/frontend/react/tests/components/forms/RaceForm.test.jsx#L80) and [here](https://github.com/COMP-4350-Group-8/comp4350-project/blob/15ae35b0140ec5c58ecc2efa40893376c5c6c674/frontend/react/tests/App.test.jsx#L9). Both mocks are used to confirm that the race creation form couldn't be submitted with incomplete data. The first mock is a function which is passed as a prop to the test component and checked later to confirm it wasn't called. The second mock replaces a function in an import so that the tests can complete the form submission flow without triggering the fetch logic.
 
 #### Azat
 
