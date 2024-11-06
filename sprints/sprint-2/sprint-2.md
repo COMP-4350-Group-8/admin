@@ -1,5 +1,7 @@
 # Worksheet Info
 
+Please Read Wiki, Specifically [System Design](https://github.com/COMP-4350-Group-8/admin/wiki/System-Design)
+
 ## Worksheet Location
 
 - This document, or in our wiki
