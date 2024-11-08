@@ -188,4 +188,4 @@ $\color{Apricot}{[Answer:]}$
 
 #### Shaun
 
-$\color{Apricot}{[Answer:]}$
+My best work is the React frontend. It is my first time working on the frontend as well as with react. I'm happy about the front design which was both interactive and user-friendly. I included a Google Maps directly on the site using an iframe so users can explore locations without leaving the page. To keep everything running smoothly, I set up a system to manage the app’s state, which keeps data consistent and updates the interface as users interact with it.
