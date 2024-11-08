@@ -4,7 +4,7 @@ Please Read Wiki, Specifically [System Design](https://github.com/COMP-4350-Grou
 
 ## Worksheet Location
 
-- This document, or in our wiki
+- This document, (with links to our wiki)
 
 ## Worksheet 2 Content
 
