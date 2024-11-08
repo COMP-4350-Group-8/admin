@@ -6,7 +6,7 @@ Please Read Wiki, Specifically [System Design](https://github.com/COMP-4350-Grou
 
 - This document, or in our wiki
 
-## Worksheet 2 Draft
+## Worksheet 2 Content
 
 ### Regression testing
 
@@ -33,8 +33,6 @@ Please Read Wiki, Specifically [System Design](https://github.com/COMP-4350-Grou
 - Testing Script Link: $\color{Apricot}{[TODO]}$
 - Texts Executed:
 	- $\color{Apricot}{[TODO]}$
-	- $\color{Apricot}{[TODO]}$
-	- $\color{Apricot}{[TODO]}$ etc.
 - Testing Results: $\color{Apricot}{[TODO]}$
 
 $\color{Apricot}{[TODO]}$ (Snapshot of regression testing script execution)
@@ -45,8 +43,6 @@ $\color{Apricot}{[TODO]}$ (Snapshot of regression testing script execution)
 - Testing Script Link: $\color{Apricot}{[TODO]}$
 - Texts Executed:
 	- $\color{Apricot}{[TODO]}$
-	- $\color{Apricot}{[TODO]}$
-	- $\color{Apricot}{[TODO]}$ etc.
 - Testing Results: $\color{Apricot}{[TODO]}$
 
 $\color{Apricot}{[TODO]}$ (Snapshot of regression testing script execution)
@@ -64,13 +60,12 @@ Yes*
 
 #### What have you not tested? 
 
-- Flutter (Client)
+- Flutter (Client) - N/A (for sprint 2)
 - Automated Tests from frontend to backend
-- $\color{Apricot}{[TODO]}$
 
 #### Current System Diagram.
 
-$\color{Apricot}{[TODO]}$
+See [Wiki: System-Design](https://github.com/COMP-4350-Group-8/admin/wiki/System-Design)
 
 #### Testing Coverage
 
@@ -142,6 +137,7 @@ You can see backend coverage report [here](https://htmlpreview.github.io/?https:
 
 #### Endpoints:
 
+(See: https://github.com/COMP-4350-Group-8/admin/wiki/System-Design)
 - $\color{Apricot}{[TODO]}$
 
 #### Profiler Output
@@ -172,6 +168,7 @@ $\color{Apricot}{[TODO:]}$ (link, image, text, etc.)
 
 #### Owen
 
+<!-- Backend Dev & Management -->
 $\color{Apricot}{[Answer:]}$
 
 #### Robert
