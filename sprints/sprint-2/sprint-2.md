@@ -129,7 +129,7 @@ Everything else in the React frontend is fully tested.
 
 ###### Coverage Reports
 
-- $\color{Apricot}{[TODO]}$
+You can see backend coverage report here{https://htmlpreview.github.io/?https://github.com/COMP-4350-Group-8/admin/blob/main/sprints/sprint-2/coverage-report/backend/index.html}
 
 ### Profiler
 
