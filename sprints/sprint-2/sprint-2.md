@@ -184,7 +184,7 @@ My best work is the tests for the React frontend. I had worked with React in the
 
 #### Azat
 
-$\color{Apricot}{[Answer:]}$
+The most I am proud of is setting up a relational database. I took database almost 5 years ago and everything was on paper. So i had no practical experience in doing databases. MySql is my first database and I am very proud of how it went.
 
 #### Shaun
 
