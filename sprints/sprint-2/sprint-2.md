@@ -168,8 +168,9 @@ $\color{Apricot}{[TODO:]}$ (link, image, text, etc.)
 
 #### Owen
 
-<!-- Backend Dev & Management -->
-$\color{Apricot}{[Answer:]}$
+- API design
+- backend setup and structure
+- dockerization and CD to docker hub
 
 #### Robert
 
