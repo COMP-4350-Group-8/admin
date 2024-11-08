@@ -152,7 +152,11 @@ $\color{Apricot}{[Answer:]}$
 
 #### Robert
 
-$\color{Apricot}{[Answer:]}$
+- Created Documentation Structre (I have not maintained it well though)
+- Setup GitHub Workflows for CI (and some CD) integration.
+- Added Repository variables to control GitHub Workflows for CICD
+	- Said variables control what is run where & when.
+- Flutter Bug; Offical Documentation for a feature in Flutter's API was wrong. All resources I found were not update. In the end I think I found a solution that should be stable (specify relating to the bottom Nav_Bar)
 
 #### Brett
 
@@ -160,7 +164,7 @@ $\color{Apricot}{[Answer:]}$
 
 #### Azat
 
-$\color{Apricot}{[Answer:]}$
+Figuring out the relations in the database and setting them up
 
 #### Shaun
 
