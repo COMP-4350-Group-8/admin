@@ -119,8 +119,8 @@ Everything else in the React frontend is fully tested.
 | Home.jsx             | 100     | 100      | 100     | 100     |
 
 ##### Backend
-
-- $\color{Apricot}{[TODO]}$
+Not covered:
+- Any Controller classes
 
 ###### Coverage Reports
 
