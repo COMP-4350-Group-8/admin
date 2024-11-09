@@ -137,7 +137,6 @@ You can see backend coverage report [here](https://htmlpreview.github.io/?https:
 
 #### Endpoints:
 
-(See: https://github.com/COMP-4350-Group-8/admin/wiki/System-Design)
 - $\color{Apricot}{[TODO]}$
 
 #### Profiler Output
