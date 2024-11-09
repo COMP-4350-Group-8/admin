@@ -30,12 +30,13 @@ Please Read Wiki, Specifically [System Design](https://github.com/COMP-4350-Grou
 #### REACT:
 
 - Tool: Vitest
-- Testing Script Link: $\color{Apricot}{[TODO]}$
+- Testing Script Link: See [CI Workflow](https://github.com/COMP-4350-Group-8/comp4350-project/blob/ec0cfde7accd3c8588fe9cf2534fcb109552cd0a/.github/workflows/ci-workflow.yml#L135)
 - Texts Executed:
-	- $\color{Apricot}{[TODO]}$
-- Testing Results: $\color{Apricot}{[TODO]}$
-
-$\color{Apricot}{[TODO]}$ (Snapshot of regression testing script execution)
+	- All React tests are run in our CI pipeline; there is no distinction between the normal tests and the regression tests. The tests for the React frontend run quickly enough that there was no need to trim the numbers down for regression tests.
+- Testing Results:
+	- Test Files  4 passed
+	- Tests  13 passed
+  	- See [action report (Run REACT Unit Tests)](https://github.com/COMP-4350-Group-8/comp4350-project/actions/runs/11748732119/job/32733457784) for full report.
 
 #### Backend:
 
