@@ -5,7 +5,7 @@ You can see API documentation [here](https://htmlpreview.github.io/?https://gith
 |------------|---------|-------|------|--------|--------|--------|---|---|-------|----------|---------------|-----------|
 |HTTP Request|100      |10     |8     |12      |21      |57      |6  |107|0.000% |107.87487 |6096.18        |6095.35    |  
 
-This load test simulated 10 concurrent users uploading their tracks to a website, each performing 10 iterations. In total, the test generated 100 HTTP POST requests, with the server responding in an average time of 10 milliseconds.
+This load test simulated 10 concurrent users uploading their tracks the size of 40KB to a website, each performing 10 iterations. In total, the test generated 100 HTTP POST requests, with the server responding in an average time of 10 milliseconds.
 
 ### Coverage Reports
 
