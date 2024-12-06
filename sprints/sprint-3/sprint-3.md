@@ -92,7 +92,7 @@ Snap shot of CD: ![image](https://github.com/user-attachments/assets/ba8ebda3-8e
 
 The CD uploads the docker images to docker hub, currently linked: [react](https://hub.docker.com/repository/docker/owenhny/sailmapper_react/general) , [backend](https://hub.docker.com/repository/docker/owenhny/sailmapper_backend/general) 
 
-#Thoughts
+# Thoughts
 
 ## Design Changes
 
