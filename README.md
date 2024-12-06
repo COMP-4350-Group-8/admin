@@ -19,10 +19,10 @@ See the [Wiki](https://github.com/COMP-4350-Group-8/admin/wiki) for more informa
 - [x] 2024-10-21 [Week 8]: Brett
 - [x] 2024-10-28 [Week 9]: Azat
 - [x] 2024-11-04 [Week 10]: Shaun
-- [ ] 2024-11-11 [Week Br]: Owen
-- [ ] 2024-11-18 [Week 11]: Robert
-- [ ] 2024-11-25 [Week 12]: Brett
-- [ ] 2024-12-02 [Week 13]: Azat
+- [x] 2024-11-11 [Week Br]: Owen
+- [x] 2024-11-18 [Week 11]: Robert
+- [x] 2024-11-25 [Week 12]: Brett
+- [x] 2024-12-02 [Week 13]: Azat
 - [x] ~~2024-12-09 [Week 14]: Shaun~~
 
 ## Sprints
