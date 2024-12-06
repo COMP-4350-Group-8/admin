@@ -123,7 +123,7 @@ Throughout this project, we encountered situations where individual team members
 3. **Delays and Confusion**  
    Uncertainty surrounding the knowledge of sailboat racing contributed to delays, miscommunication, and inefficiencies within the team.
 
-### CHanges  
+### Changes  
 
 To address these challenges, we will:
 
