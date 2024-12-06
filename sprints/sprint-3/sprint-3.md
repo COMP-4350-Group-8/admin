@@ -1,6 +1,6 @@
 ## API DOCUMENTATION  
 You can see API documentation [here](https://htmlpreview.github.io/?https://github.com/COMP-4350-Group-8/admin/blob/main/sprints/sprint-3/dist/index.html) (Refresh if blank)  
-## LOAD TESTING RESULTS (APACHE JMETER)  
+# LOAD TESTING RESULTS (APACHE JMETER)  
 ### Test Scenario  
 The test was designed to evaluate the system's performance when handling simultaneous file uploads by multiple users.  
 #### The specific scenario involved:
