@@ -1,13 +1,40 @@
-### API DOCUMENTATION  
+## API DOCUMENTATION  
 You can see API documentation [here](https://htmlpreview.github.io/?https://github.com/COMP-4350-Group-8/admin/blob/main/sprints/sprint-3/dist/index.html) (Refresh if blank)  
-### LOAD TESTING RESULTS (APACHE JMETER)  
-|Label       |# Samples|Average|Median|90% Line|95% Line|99% Line|Min|Max|Error %|Throughput|Received KB/sec|Sent KB/sec|
-|------------|---------|-------|------|--------|--------|--------|---|---|-------|----------|---------------|-----------|
-|HTTP Request|100      |10     |8     |12      |21      |57      |6  |107|0.000% |107.87487 |6096.18        |6095.35    |  
+## LOAD TESTING RESULTS (APACHE JMETER)  
+### Test Scenario  
+The test was designed to evaluate the system's performance when handling simultaneous file uploads by multiple users.  
+#### The specific scenario involved:
+- Number of Concurrent Users: 150 virtual users.
+- Action Simulated: Each user uploaded a file to the system.
+- Loops per User: Each user performed the file upload operation 10 times in a loop.
+- Total Requests: The test resulted in a total of 1,500 file upload requests (150 users × 10 loops).
+  
+### Load Test Configuration  
+#### Thread Group Setup:
+- Number of Threads (Users): 150
+- Ramp-Up Period: 1 second
+- Loop Count: 10
+- File Size: ~40KB
+- Endpoints: The file upload requests targeted the endpoint POST /track.
 
-This load test simulated 10 concurrent users uploading their tracks the size of 40KB to a website, each performing 10 iterations. In total, the test generated 100 HTTP POST requests, with the server responding in an average time of 10 milliseconds.
+### Results Summary:
+- Response Time: Average = 77 req/sec, median = 63 req/sec, and 95th percentile = 119 req/sec.
+- Throughput: 623.4 req/sec
+- Error Rate: 0%
 
-### Coverage Reports
+|Label       |# Samples|Average|Min|Max |Std. Dev.|Error %|Throughput|Received KB/sec|Sent KB/sec|Avg. Bytes|
+|------------|---------|-------|---|----|---------|-------|----------|---------------|-----------|----------|
+|HTTP Request|1500     |77     |5  |2247|157.96   |0.000% |623.44140 |35234.18       |35226.87   |57872.0   |
+
+### Bottleneck:
+- The requirement for POST request is to already have a Boat and a Race created for what track is getting uploaded.
+
+### Non-functional requirement:
+Since many racers can create many tracks and all connect back to the internet at the same time, the system should be able to handle the concurrent uploading of at least 7 tracks from 150 users at the same time.  
+- Goals met?: yes
+- Why?: because our backend can handle the requests and the requirement was not that hard to achieve.
+
+## Backend Test Coverage Reports
 
 You can see backend coverage report [here](https://htmlpreview.github.io/?https://github.com/COMP-4350-Group-8/admin/blob/main/sprints/sprint-3/coverage-report/index.html)  
 
