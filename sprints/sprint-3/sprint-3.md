@@ -92,5 +92,47 @@ Snap shot of CD: ![image](https://github.com/user-attachments/assets/ba8ebda3-8e
 
 The CD uploads the docker images to docker hub, currently linked: [react](https://hub.docker.com/repository/docker/owenhny/sailmapper_react/general) , [backend](https://hub.docker.com/repository/docker/owenhny/sailmapper_backend/general) 
 
+#Thoughts
 
+## Design Changes
 
+Given what we know now, we will probably incorporate more security features into out application. As of now, all the data we have stored is currently accessible to the users and there is no authentication or validation set in place. This would be fine (still questionable) if we were to only apply this application for personal use. But for releasing into the public, it can cause a lot of problems, such as impersonation of race teams, passing false race data etc. In order to mitigate this, some of the chaanges that an be included are as follows:
+1. **User Authentication**  
+   Enforce secure login mechanisms, such as email/password combinations or third-party authentication services (e.g., OAuth or SSO), to verify user identities.
+
+2. **Role-Based Access Control**  
+   Limit access to certain features and data based on user roles .
+
+3. **Audit Logs**  
+   Maintain detailed logs of user actions to enable tracing and accountability in case of disputes or security incidents.
+
+4. **Encryption**  
+   Secure sensitive user data, both in transit (e.g., using HTTPS) and at rest (e.g., encrypted databases), to protect against unauthorized access.
+
+## Other thoughts
+One key takeaway from our current project is the importance of thorough **requirement gathering** and developing a comprehensive understanding of the **domain knowledge** prior to initiating any new project.
+
+Throughout this project, we encountered situations where individual team members held differing interpretations of the project's objectives. This misalignment resulted in several challenges, including:
+
+1. **Improper Scoping of Features**  
+   A lack of clarity regarding the project's goals led to difficulties in prioritizing and defining the features to be implemented.
+
+2. **Frequent Code Refactoring**  
+   Misunderstandings and shifts in direction required multiple rounds of refactoring, which increased development time and effort.
+
+3. **Delays and Confusion**  
+   Uncertainty surrounding the knowledge of sailboat racing contributed to delays, miscommunication, and inefficiencies within the team.
+
+### CHanges  
+
+To address these challenges, we will:
+
+1. **Focus on Requirement Gathering**  
+   - Allocate time to clearly define the scope and objectives of the project.  
+
+2. **Enhance Domain Knowledge**  
+   - Dedicate efforts to understanding the problem space and its specific needs.  
+
+3. **Document and Validate Requirements**  
+   - Develop detailed documentation of requirements and circulate it among the team for review.  
+   - Regularly validate the requirements to ensure alignment with the overall project goals.
