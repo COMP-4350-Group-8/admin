@@ -10,6 +10,7 @@ The test was designed to evaluate the system's performance when handling simulta
 - Total Requests: The test resulted in a total of 1,500 file upload requests (150 users × 10 loops).
   
 ### Load Test Configuration  
+The test.jmx file was uploaded to github and you can find it [here](https://github.com/COMP-4350-Group-8/admin/blob/main/sprints/sprint-3/test.jmx)  
 #### Thread Group Setup:
 - Number of Threads (Users): 150
 - Ramp-Up Period: 1 second
@@ -25,7 +26,6 @@ The test was designed to evaluate the system's performance when handling simulta
 |Label       |# Samples|Average|Min|Max |Std. Dev.|Error %|Throughput|Received KB/sec|Sent KB/sec|Avg. Bytes|
 |------------|---------|-------|---|----|---------|-------|----------|---------------|-----------|----------|
 |HTTP Request|1500     |77     |5  |2247|157.96   |0.000% |623.44140 |35234.18       |35226.87   |57872.0   |  
-The test.jmx file was uploaded to github and you can find it [here](https://github.com/COMP-4350-Group-8/admin/edit/main/sprints/sprint-3/test.jmx)  
 
 ### Bottleneck:
 - The requirement for POST request is to already have a Boat and a Race created for what track is getting uploaded.
