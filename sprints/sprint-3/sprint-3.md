@@ -1,6 +1,6 @@
 ## API DOCUMENTATION  
 You can see API documentation [here](https://htmlpreview.github.io/?https://github.com/COMP-4350-Group-8/admin/blob/main/sprints/sprint-3/dist/index.html) (Refresh if blank)  
-# LOAD TESTING RESULTS (APACHE JMETER)  
+# Load Testing Results (Apache Jmeter)  
 ### Test Scenario  
 The test was designed to evaluate the system's performance when handling simultaneous file uploads by multiple users.  
 #### The specific scenario involved:
@@ -42,10 +42,10 @@ You can see backend coverage report [here](https://htmlpreview.github.io/?https:
 
 # Security analysis
 
-Our biggest security vulnerability is commiting things to github that should not be publicly available. We have put or database password and google maps api key in our public github repo. The maps key has been cycled and the "production" database password has been changed. 
+Our biggest security vulnerability is commiting things to github that should not be publicly available. We had put our database password and google maps api key in our public github repo. The maps key has been cycled and the "production" database password has been changed. 
 
 ### Backend security:
-There is not many security vulnerabilities because we are not trying to obscure or protect any functions. You don't have to be concerned that someone can gain access to your system when you give them access in the first place. There is no authentication or privileged actions and thus escalation of abilities is not possible. All data is available to all users so no unauthorized data access is possible. logins and user data is not present so security concerns around those are not present. sql injection and database exploits are the greatest concerns for our system. We are using ef entity core for database management and it automatically sanitizes inputs.
+There are not many security vulnerabilities because we are not trying to obscure or protect any functions. You don't have to be concerned that someone can gain access to your system when you give them full access in the first place. There is no authentication or privileged actions and thus escalation of abilities is not possible. All data is available to all users so no unauthorized data access is possible. logins and user data is not present so security concerns around those are not present. sql injection and database exploits are the greatest concerns for our system. We are using ef entity core for database management and it automatically sanitizes inputs.
 
 We have been coding with the sonarQube extension for visual studio and it does not find any issues with our code. sonarQube is a static analysis tool.  
 ### Automated client side testing:
@@ -96,7 +96,7 @@ The CD uploads the docker images to docker hub, currently linked: [react](https:
 
 ## Design Changes
 
-Given what we know now, we will probably incorporate more security features into out application. As of now, all the data we have stored is currently accessible to the users and there is no authentication or validation set in place. This would be fine (still questionable) if we were to only apply this application for personal use. But for releasing into the public, it can cause a lot of problems, such as impersonation of race teams, passing false race data etc. In order to mitigate this, some of the chaanges that an be included are as follows:
+Given what we know now, we would probably incorporate more security features into out application. As of now, all the data we have stored is currently accessible to the users and there is no authentication or validation set in place. This would be fine (still questionable) if we were to only apply this application for personal use. But for releasing into the public, it can cause a lot of problems, such as impersonation of race teams, passing false race data etc. In order to mitigate this, some of the chaanges that an be included are as follows:
 1. **User Authentication**  
    Enforce secure login mechanisms, such as email/password combinations or third-party authentication services (e.g., OAuth or SSO), to verify user identities.
 
@@ -109,7 +109,7 @@ Given what we know now, we will probably incorporate more security features into
 4. **Encryption**  
    Secure sensitive user data, both in transit (e.g., using HTTPS) and at rest (e.g., encrypted databases), to protect against unauthorized access.
 
-## Other thoughts
+## Other Changes
 One key takeaway from our current project is the importance of thorough **requirement gathering** and developing a comprehensive understanding of the **domain knowledge** prior to initiating any new project.
 
 Throughout this project, we encountered situations where individual team members held differing interpretations of the project's objectives. This misalignment resulted in several challenges, including:
@@ -136,3 +136,7 @@ To address these challenges, we will:
 3. **Document and Validate Requirements**  
    - Develop detailed documentation of requirements and circulate it among the team for review.  
    - Regularly validate the requirements to ensure alignment with the overall project goals.
+
+# Other Thoughts
+
+Given the issues we had stemming from not properly gathering the requirements for our system disucssed above, a change we would recommend for the course would be to add more requirements to sprint 0 or 1 regarding design documentation. This could take the form of UI sketches, other software that will be used as a reference, or something else. The idea is that these extra requirements can help groups to develop a unified understanding and vision for their project.
