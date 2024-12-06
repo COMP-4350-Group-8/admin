@@ -52,3 +52,17 @@ Confidence -> Medium
 ## 5: X-Content-Type-Options Header Missing
 Risk -> Low
 Confidence -> Medium
+
+
+# CI/CD
+
+We have our CI/CD pipeline in github actions [here](https://github.com/COMP-4350-Group-8/comp4350-project/actions)  
+
+Snap shot of CI: ![image](https://github.com/user-attachments/assets/e3675398-abd2-4610-99e7-e06214179c2b)
+
+Snap shot of CD: ![image](https://github.com/user-attachments/assets/ba8ebda3-8e22-40b3-b28e-356c1b20fd37)
+
+The CD uploads the docker images to docker hub, currently linked: [react](https://hub.docker.com/repository/docker/owenhny/sailmapper_react/general) , [backend](https://hub.docker.com/repository/docker/owenhny/sailmapper_backend/general) 
+
+
+
